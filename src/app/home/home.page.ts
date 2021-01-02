@@ -34,7 +34,7 @@ export class HomePage {
 
   constructor(private postPvdr:PostProvider,private storages:Storage,public modalCtrl:ModalController,public fb: FormBuilder,public betService:BetplacedService,public navCtrl: NavController,public platform: Platform,  private zone: NgZone) {
 
-    
+    console.log("sad");
   
 
   }
