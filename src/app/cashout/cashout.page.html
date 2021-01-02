@@ -1,0 +1,92 @@
+<ion-header>
+  <ion-toolbar color="primary" >
+    <ion-title>
+      Cashout
+    </ion-title>
+      <!-- Side menu button -->
+      <ion-buttons slot="start">
+        <ion-menu-button autoHide="false"></ion-menu-button>
+      </ion-buttons>
+
+      <div slot="end" style="margin-right: 15px;">
+  
+        <ion-label>₱ {{wallet | number:'1.2-2'}}</ion-label>&nbsp;
+        <ion-icon  name="wallet-outline" ></ion-icon>
+      </div>
+
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+
+  <div class="signup-wrapper">
+  <br>
+  <div class="signup-form">
+          
+    <div class="form-group">
+        <input type="number" class="form-control input" [(ngModel)]="amount" placeholder="Amount" >
+    </div>
+    <div class="form-group">
+      <ion-select class="form-control input" [(ngModel)]="outlet" value="{{outlet}}" placeholder="Select One" (ionChange)='outletSelect()'>
+        <ion-select-option value="gcash">Gcash</ion-select-option>
+        <ion-select-option value="palawan">Palawan Express</ion-select-option>
+        <ion-select-option value="mlhuillier">MLhuillier</ion-select-option>
+        <ion-select-option value="bank">Bank</ion-select-option>
+      </ion-select>
+    </div>
+
+    <div class="form-group" *ngIf="outlet == 'gcash'">
+      <input type="text" class="form-control input" [(ngModel)]="gcash_number" placeholder="Gcash Number">
+  </div>
+
+  <div class="form-group" *ngIf="outlet == 'mlhuillier'">
+    <input type="text" class="form-control input" [(ngModel)]="remitance_receiver" placeholder="Reciever's Name">
+    </div>
+    <div class="form-group" *ngIf="outlet == 'mlhuillier'">
+    <input type="text" class="form-control input" [(ngModel)]="remitance_address" placeholder="Reciever's Address">
+  </div>
+
+<div class="form-group" *ngIf="outlet == 'palawan'">
+  <input type="text" class="form-control input" [(ngModel)]="remitance_receiver" placeholder="Reciever's Name">
+  
+</div>
+<div class="form-group" *ngIf="outlet == 'palawan'">
+  <input type="text" class="form-control input" [(ngModel)]="remitance_address" placeholder="Reciever's Address">
+</div>
+
+
+<div class="form-group" *ngIf="outlet == 'bank'">
+  <ion-select class="form-control input" [(ngModel)]="bank_type" value="{{bank_type}}" placeholder="Select One" (ionChange)='outletSelect()'>
+    <ion-select-option value="bdo">BDO</ion-select-option>
+    <ion-select-option value="bpi">BPI</ion-select-option>
+    <ion-select-option value="pnb">PNB</ion-select-option>
+    <ion-select-option value="metrobank">Metrobank</ion-select-option>
+    <ion-select-option value="rcbc">RCBC</ion-select-option>
+    <ion-select-option value="unionbank">UnionBank</ion-select-option>
+    <ion-select-option value="scuritybank">Security Bank</ion-select-option>
+  </ion-select>
+</div>
+<div class="form-group" *ngIf="outlet == 'bank' ">
+  <input type="text" class="form-control input" [(ngModel)]="account_name" placeholder="Account Name">
+</div>
+<div class="form-group" *ngIf="outlet == 'bank' ">
+  <input type="text" class="form-control input" [(ngModel)]="account_number" placeholder="Account Number">
+</div>
+
+<div class="form-group">
+  <p>This will be used to inform you about your withdrawal status. By default this is same as your account's mobile number.</p>
+  <input type="text" class="form-control input" [(ngModel)]="contact" value="{{ contact }}" style="margin-top: 0px !important;" >
+</div>
+  
+    
+    <button (click)="withdraw(outlet)">Submit</button>
+    
+
+</div>
+</div>
+
+</ion-content>

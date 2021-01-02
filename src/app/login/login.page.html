@@ -1,0 +1,30 @@
+<ion-content>
+    <div class="login-wrapper">
+        <div>
+            <div class="login-header">
+                <img src="../../assets/imgs2/logo-white.svg" class="login-p-logo" alt="" />
+            </div>
+            <div class="login-with-wrapper">
+                <button>Login with <img src="../../assets/imgs2/icon-facebook.svg" /></button>
+                <button>Login with <img src="../../assets/imgs2/icon-google.svg" /></button>
+            </div>
+            <div class="or-sctn">
+                <h1>OR</h1>
+            </div>
+            <div class="login-form">
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]="username" class="form-control phonenumber" placeholder="Username" />
+                    </div>
+                    <div class="form-group">
+                          <input type="password" [(ngModel)]="password" class="form-control password" placeholder="Password" />
+                        
+                    </div>
+                    <button (click)="verification()">Login</button>
+            </div>
+        </div>
+        <div class="login-footer">
+            <h2><span (click)="goToPage('forgotpassword')">Forgot Password?</span></h2>
+            <h2>New User? <span (click)="goToPage('signup')"> Sign Up</span></h2>
+        </div>
+    </div>
+  </ion-content>

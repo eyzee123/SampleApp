@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85.728" height="79.172" viewBox="0 0 85.728 79.172">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#29bd53;stroke-linecap:square;stroke-miterlimit:10;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="Component_50_8" data-name="Component 50 – 8" transform="translate(1.548 1.672)">
+        <g id="home" transform="translate(1)">
+            <path id="Path_1576" d="M164.12 2083.654v-22.384a2.362 2.362 0 0 1 2.359-2.364H179.8a2.362 2.362 0 0 1 2.359 2.364v22.384a2.361 2.361 0 0 0 2.359 2.363h17.832a2.361 2.361 0 0 0 2.359-2.363v-31.422a2.361 2.361 0 0 1 2.359-2.364h5.024a2.364 2.364 0 0 0 1.578-4.121l-38.952-35.123a2.354 2.354 0 0 0-3.156 0l-38.953 35.123a2.364 2.364 0 0 0 1.578 4.121h5.024a2.361 2.361 0 0 1 2.359 2.364v31.422a2.361 2.361 0 0 0 2.359 2.363h17.832a2.361 2.361 0 0 0 2.359-2.363z" class="cls-1" data-name="Path 1576" transform="translate(-132.824 -2010.017)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+    <defs>
+        <style>
+            .cls-1{fill:#e4df5e}.cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-width:6px}
+        </style>
+    </defs>
+    <g id="Component_9_2" data-name="Component 9 – 2" transform="rotate(90 31 31)">
+        <circle id="Ellipse_6" cx="31" cy="31" r="31" class="cls-1" data-name="Ellipse 6"/>
+        <path id="Path_298" d="M6 0h13" class="cls-2" data-name="Path 298" transform="rotate(180 24.76 15.25)"/>
+        <path id="Path_299" d="M0 0h1" class="cls-2" data-name="Path 299" transform="rotate(180 9.62 15.25)"/>
+    </g>
+</svg>

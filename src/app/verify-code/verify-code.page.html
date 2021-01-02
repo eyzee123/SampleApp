@@ -1,0 +1,38 @@
+<ion-header>
+  <!-- <ion-toolbar>
+    <ion-title>verify_code</ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content padding>
+ 
+  <div class="main-container">
+  <div class="code">We sent you an access code via sms for mobile number verification
+    <br><br>
+    Enter code here
+  </div>
+  <div class="container">
+   
+    <ion-grid>
+      <ion-row>
+        <ion-col size="3" >    
+          <ion-input maxlength="1" #field1 [(ngModel)]="input1" (ionChange)="onInputTime($event)"></ion-input>
+        </ion-col>
+        <ion-col size="3">    
+          <ion-input maxlength="1" #field2 [(ngModel)]="input2" (ionChange)="onInputTime($event)"></ion-input>
+        </ion-col>
+        <ion-col size="3">    
+          <ion-input maxlength="1" #field3 [(ngModel)]="input3" (ionChange)="onInputTime($event)"></ion-input>
+        </ion-col>
+        <ion-col size="3">    
+          <ion-input maxlength="1" #field4 [(ngModel)]="input4" (ionChange)="onInputTime($event)"></ion-input>
+        </ion-col>
+
+  </ion-row>
+  </ion-grid>
+  </div>
+  <button class="btn" (click)="verifyPhone()">Submit</button>
+  <ion-label (click)="resend()"><u>Resend</u></ion-label>
+  </div>
+
+</ion-content>

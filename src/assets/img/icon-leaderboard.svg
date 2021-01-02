@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none;stroke:#b1c1bd}.cls-1{stroke-miterlimit:10;stroke-width:3px}.cls-2,.cls-3{stroke-width:3px;stroke-linecap:square}.cls-3{stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Component_106_3" data-name="Component 106 – 3" transform="translate(1.5 1.5)">
+        <circle id="Ellipse_57" cx="31" cy="31" r="31" class="cls-1" data-name="Ellipse 57"/>
+        <g id="Group_525" data-name="Group 525" transform="translate(-146.499 -1378.5)">
+            <path id="Path_1577" d="M282.322 2012.1h-27.949s-.061 14.3 0 16.915a12.579 12.579 0 0 0 8.134 10.109 14.569 14.569 0 0 0 2.924.852 15.83 15.83 0 0 0 5.77 0 13.489 13.489 0 0 0 2.924-.852 12.579 12.579 0 0 0 8.134-10.109c.047-15.835.063-16.915.063-16.915zm-28.01 1.29v12.979a5.18 5.18 0 0 1-4.224-4.849v-8.372a2.129 2.129 0 0 1 4.224 0zm32.234 8.129a5.18 5.18 0 0 1-4.224 4.849v-13.222a2.129 2.129 0 0 1 4.224 0z" class="cls-2" data-name="Path 1577" transform="translate(-91.089 -617.285)"/>
+            <path id="Path_1578" d="M283.011 2035.7l2.474 1.832-.945 2.964a.786.786 0 0 0 .292.893.75.75 0 0 0 .9-.008l2.474-1.832 2.474 1.832a.755.755 0 0 0 .989-.064.783.783 0 0 0 .206-.821l-.945-2.964 2.474-1.832a.79.79 0 0 0 .254-.961.759.759 0 0 0-.71-.471h-3.058l-.945-2.964a.772.772 0 0 0-1.477 0l-.945 2.964h-3.058a.771.771 0 0 0-.761.634.781.781 0 0 0 .307.798z" class="cls-3" data-name="Path 1578" transform="translate(-110.981 -629.36)"/>
+            <path id="Line_20" d="M0 0v10.176" class="cls-2" data-name="Line 20" transform="translate(182.316 1423.217)"/>
+            <path id="Path_1581" d="M0 0v5.66" class="cls-2" data-name="Path 1581" transform="translate(172.717 1423.217)"/>
+        </g>
+    </g>
+</svg>

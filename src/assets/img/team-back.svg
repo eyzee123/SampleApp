@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1112" height="406" viewBox="0 0 1112 406">
+    <defs>
+        <style>
+            .cls-1{fill:#29bd53;stroke:#e3f6f1;stroke-width:2px}.cls-2{fill:#28b851}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="Group_434" data-name="Group 434" transform="translate(2 130)">
+        <g id="Rectangle_30" class="cls-1" data-name="Rectangle 30">
+            <path d="M24 0h1060a24 24 0 0 1 24 24v378H0V24A24 24 0 0 1 24 0z" class="cls-3" transform="translate(0 -128)"/>
+            <path d="M24-1h1060a25 25 0 0 1 25 25v378a1 1 0 0 1-1 1H0a1 1 0 0 1-1-1V24A25 25 0 0 1 24-1z" class="cls-4" transform="translate(0 -128)"/>
+        </g>
+        <path id="Rectangle_49" d="M0 0h124.2v400.639H0z" class="cls-2" data-name="Rectangle 49" transform="translate(124 -128)"/>
+        <path id="Rectangle_49-2" d="M0 0h124.2v400.639H0z" class="cls-2" data-name="Rectangle 49" transform="translate(328.226 -128)"/>
+        <path id="Rectangle_49-3" d="M0 0h124.2v400.639H0z" class="cls-2" data-name="Rectangle 49" transform="translate(546.458 -128)"/>
+        <path id="Rectangle_49-4" d="M0 0h124.2v400.639H0z" class="cls-2" data-name="Rectangle 49" transform="translate(765.569 -128)"/>
+        <path id="Rectangle_49-5" d="M0 0h100.2a24 24 0 0 1 24 24v376.639H0V0z" class="cls-2" data-name="Rectangle 49" transform="translate(983.8 -128)"/>
+    </g>
+</svg>

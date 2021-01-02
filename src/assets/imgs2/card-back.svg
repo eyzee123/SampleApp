@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="702" height="695" viewBox="0 0 702 695">
+    <defs>
+        <style>
+            .cls-1{fill:#3678ff}.cls-2{fill:url(#linear-gradient)}.cls-3{clip-path:url(#clip-path)}.cls-4{fill:#fff;opacity:.05}
+        </style>
+        <linearGradient id="linear-gradient" x1=".985" x2=".017" y1=".018" y2=".986" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#3678ff"/>
+            <stop offset="1" stop-color="#1b3c80"/>
+        </linearGradient>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_122" width="702" height="695" class="cls-1" data-name="Rectangle 122" rx="26" transform="translate(270 290)"/>
+        </clipPath>
+    </defs>
+    <g id="Group_431" data-name="Group 431" transform="translate(-270 -290)">
+        <rect id="Rectangle_118" width="702" height="695" class="cls-2" data-name="Rectangle 118" rx="26" transform="translate(270 290)"/>
+        <g id="Group_430" data-name="Group 430">
+            <g id="Mask_Group_1" class="cls-3" data-name="Mask Group 1">
+                <path id="Polygon_2" d="M145 0l145 252H0z" class="cls-4" data-name="Polygon 2" transform="rotate(-36 1425.103 -495.642)"/>
+                <path id="Polygon_3" d="M73 0l73 126H0z" class="cls-4" data-name="Polygon 3" transform="rotate(92 183.161 685.373)"/>
+                <path id="Polygon_4" d="M73 0l73 126H0z" class="cls-4" data-name="Polygon 4" transform="rotate(52 -406.357 1341.2)"/>
+                <path id="Path_1608" d="M73 0l62.675 108.179L146 126H0z" class="cls-4" data-name="Path 1608" transform="rotate(-69 926.002 -243.01)"/>
+            </g>
+        </g>
+    </g>
+</svg>

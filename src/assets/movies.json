@@ -1,0 +1,88 @@
+{
+    "movies": [
+        {
+            "name": "Escape Room",
+            "company": "Columbia Pictures",
+            "genre": "Horror",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "Rust Creek",
+            "company": "IFC Films",
+            "genre": "Drama",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "American Hangman",
+            "company": "Hangman Productions",
+            "genre": "Thriller",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "The Upside",
+            "company": "STX Entertainment",
+            "genre": "Comedy",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "Replicas",
+            "company": "Entertainment Studios",
+            "genre": "Sci-Fi",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "After Darkness",
+            "company": "Grindstone Group",
+            "genre": "Drama",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "Glass",
+            "company": "Universal Pictures",
+            "genre": "Superhero",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "Close",
+            "company": "Netflix",
+            "genre": "Action",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "The Final Wish",
+            "company": "BondIt Capital",
+            "genre": "Horror",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "Serenity",
+            "company": "Aviron Pictures",
+            "genre": "Drama",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "Miss Bala",
+            "company": "Columbia Pictures",
+            "genre": "Thriller",
+            "id": "1",
+            "status": "sadasd"
+        },
+        {
+            "name": "Velvet Buzzsaw",
+            "company": "Netflix",
+            "genre": "Comedy",
+            "id": "1",
+            "status": "sadasd"
+        }
+    ]
+}

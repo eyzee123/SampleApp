@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_9_3" width="70" height="70" data-name="Component 9 – 3" viewBox="0 0 70 70">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-1,.cls-2{stroke:#db5858;stroke-width:3px}.cls-2,.cls-4{fill:none}.cls-2{stroke-linecap:round}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="Ellipse_6" class="cls-1" data-name="Ellipse 6">
+        <circle cx="35" cy="35" r="35" class="cls-3"/>
+        <circle cx="35" cy="35" r="33.5" class="cls-4"/>
+    </g>
+    <path id="Path_300" d="M0 0h28" class="cls-2" data-name="Path 300" transform="translate(21.5 35.5)"/>
+</svg>

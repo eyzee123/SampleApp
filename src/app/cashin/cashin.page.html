@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar color="primary" >
+    <ion-title>
+      Cashin
+    </ion-title>
+      <!-- Side menu button -->
+      <ion-buttons slot="start">
+        <ion-menu-button autoHide="false"></ion-menu-button>
+      </ion-buttons>
+
+      <!-- <div slot="end" style="margin-right: 15px;">
+  
+        <ion-label>₱ {{wallet | number:'1.2-2'}}</ion-label>&nbsp;
+        <ion-icon  name="wallet-outline" ></ion-icon>
+      </div> -->
+
+    
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="signup-wrapper">
+      
+      <div class="signup-with-wrapper">
+          <!-- <button>Register with <img src="../../assets/img/icon-facebook-2.svg"></button>
+          <button>Register with <img src="../../assets/img/icon-google-2.svg"></button> -->
+          <h2>Deposit Form</h2>
+      </div>
+      <div class="signup-form">
+        <ion-tabs>
+          <ion-tab-bar slot="top">
+            <ion-tab-button tab="gcash">
+              <ion-icon name="cash-outline"></ion-icon>
+              <ion-label>Gcash</ion-label>
+             
+            </ion-tab-button>
+        
+            <ion-tab-button tab="ml">
+              <ion-icon name="person-circle"></ion-icon>
+              <ion-label>ML</ion-label>
+            </ion-tab-button>
+        
+            <ion-tab-button tab="palawan">
+              <ion-icon name="cash-outline"></ion-icon>
+              <ion-label>Palawan Express</ion-label>
+            </ion-tab-button>
+          </ion-tab-bar>
+        </ion-tabs>       
+              <!-- <div class="form-group">
+                  <label>Amount</label>
+                  <input type="text" class="form-control input" [(ngModel)]="amount">
+              </div>
+              <div class="form-group">
+                  <label>Sender Number</label>
+                  <input type="text" class="form-control input" [(ngModel)]="sender">
+            </div>
+              <div class="form-group">
+                  <label>Receiver Number</label>
+                  <input type="number" class="form-control input" [(ngModel)]="receiver">
+              </div>
+              <div class="form-group">
+                  <label>Ref. No</label>
+                  <input type="text" class="form-control input" [(ngModel)]="ref" >
+              </div>
+              <div class="form-group">
+                  <label>Screenshot of the Gcash receipt</label>
+                  <input type="file" [(ngModel)]="receipt" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Notes</label>
+                <input type="text" [(ngModel)]="notes" class="form-control">
+            </div> -->
+              <!-- <button (click)="verification()">Submit Gcash</button> -->
+              
+         
+      </div>
+      <!-- <div class="signup-footer">
+          <h2>By signing Up, I agree to the <span>Terms & Conditions</span></h2>
+          <h2>Already have an account? <span (click)="goToPage('login')">Login</span></h2>
+         
+          
+      </div> -->
+  </div>
+
+</ion-content>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_125_2" width="39" height="53.311" data-name="Component 125 – 2" viewBox="0 0 39 53.311">
+    <defs>
+        <style>
+            .cls-1{fill:#29bd53}.cls-2{fill:#72d3d3;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Path_1738" d="M19.5-14.311S39 8.73 39 19.5a19.5 19.5 0 0 1-39 0C0 8.73 19.5-14.311 19.5-14.311z" class="cls-1" data-name="Path 1738" transform="rotate(180 19.5 19.5)"/>
+    <circle id="Ellipse_75" cx="11" cy="11" r="11" class="cls-2" data-name="Ellipse 75" transform="translate(8.5 8.311)"/>
+</svg>

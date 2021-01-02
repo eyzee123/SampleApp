@@ -1,0 +1,45 @@
+<ion-content>
+    <div class="signup-wrapper">
+        <h1>Sign Up</h1>
+        <div class="signup-with-wrapper">
+            <!-- <button>Register with <img src="../../assets/img/icon-facebook-2.svg"></button>
+            <button>Register with <img src="../../assets/img/icon-google-2.svg"></button> -->
+        </div>
+        <div class="or-sctn">
+            <h1>OR</h1>
+        </div>
+        <div class="signup-form">
+            
+                <div class="form-group">
+                    <input type="text" class="form-control input profile" [(ngModel)]="fullname" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control input profile" [(ngModel)]="username" placeholder="Username">
+              </div>
+                <div class="form-group">
+                    <ion-input type="text" class="form-control input phonenumber" [(ngModel)]="phone" placeholder="Phone Number" > </ion-input>
+                    <label>You'll receive an OTP for verification. Please make sure that your number starts with <b>"639"</b></label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control input mail" [(ngModel)]="email" placeholder="Email Address">
+                    <label>No spam, we promise!</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" [(ngModel)]="pass" class="form-control input password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <input type="password" [(ngModel)]="cpass" class="form-control input password" placeholder="Confirm Password">
+              </div>
+                <button (click)="otp()">Sign Up</button>
+                
+           
+        </div>
+        <div class="signup-footer">
+            <h2>By signing Up, I agree to the <span>Terms & Conditions</span></h2>
+            <h2>Already have an account? <span (click)="goToPage('login')">Login</span></h2>
+           
+            
+        </div>
+    </div>
+  
+  </ion-content>

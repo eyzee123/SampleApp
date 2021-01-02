@@ -1,0 +1,280 @@
+
+.wallet-container{
+  padding-bottom: 3px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid  var(--ion-color-primary);
+  
+  h5{
+    text-align: center;
+  }
+  ion-label{
+   
+  }
+}
+
+.my-custom-class {
+  --background: #222;
+}
+.bet-content{
+width: 100%;
+
+}
+.team1{
+
+ color: white;
+background-color: blue;
+padding: 0px;
+ion-button{
+  background-color: blue !important;
+}
+ion-col{
+  padding: 0px;
+}
+ion-label{
+  color: white;
+}
+h2{
+ 
+  padding: 3px;
+ 
+
+}
+
+}
+.team-header{
+padding-top: 10px;
+padding-bottom: 10px;
+  // border-bottom-left-radius: 12px;
+  // border-bottom-right-radius: 12px;
+  background-color: #000000;
+  opacity: 0.5;
+  
+}
+.team2{
+  padding: 0px;
+  color: white;
+background-color: red;
+ion-button{
+  background-color: red !important;
+}
+ion-col{
+  padding: 0px;
+}
+h2{
+ 
+  padding: 3px;
+
+ 
+}
+
+
+}
+
+page-player-js {
+  .logo {
+    position: absolute;
+    top: 0.5em;
+    right: 0.8em;
+    font-size: 3em;
+    color: #fff;
+  }
+}
+
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+.event-info-header {
+padding: 0px 5px 0px 5px;
+background-color: var(--ion-color-light-shade);
+p{
+  text-align: right;
+}
+}
+.event-info{
+  padding-bottom: 7px;
+  background-color: var(--ion-color-light);
+  p{
+    margin-left: 10px;
+  
+  }
+ 
+}
+.recent-results{
+margin-bottom: 10px;
+
+}
+.recent-results-header{
+  padding: 5px 5px 5px 10px;
+  margin-top: 5px;
+
+
+ion-label{
+  color: white;
+}
+  
+}
+//----------------------------------------------------------------------
+ion-col{
+  text-align: center;
+  margin: auto;
+}
+
+.points-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  h4 {
+      font-weight: 600;
+      margin: auto;
+      color: white;
+  }
+}
+.credits-inner {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  height: 100%;
+  h5 {
+    margin: auto;
+      color: #2a8c72;
+      font-weight: 600;
+  }
+}d
+
+.tab-inner-wrapper {
+  display: none;
+}
+.no-gutter {
+  padding: 0;
+  margin: 0;
+}
+.team-select-list-wrapper {
+  margin-top: 10px;
+  .team-inner-box {
+   
+    border-top: 1px solid var(--ion-color-primary);
+    border-bottom: 1px solid var(--ion-color-primary);
+      padding: 8px 20px;
+      .player-i {
+          display: flex;
+          align-items: center;
+          img {
+              border-radius: 50%;
+              width: 45px;
+          }
+          
+      }
+      h1 {
+          color: white;
+          font-size: 14px;
+      }
+      h2 {
+          color: #8d9f9b;
+          font-size: 12px;
+          margin-top: 2px;
+      }
+      h3 {
+          color: #29bd53;
+          font-size: 12px;
+      }
+      .points-inner {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          h4 {
+            color: white;
+              font-weight: 600;
+          }
+      }
+      .credits-inner {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          h5 {
+              color: #2a8c72;
+              font-weight: 600;
+          }
+      }
+      .add-player {
+          -webkit-appearance: none;
+          background-image: url("../../assets/imgs2/icon-add.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 22px;
+          width: 22px;
+          height: 100%;
+          padding: 17px;
+          border-radius: 5px;
+          outline: none;
+          transition: all .6s ease-in-out;
+      }
+      .add-player:checked {
+          background-image: url("../../assets/imgs2/icon-less-2.svg");
+      }
+  }
+  .active {
+      background-color: var(--ion-color-primary-back);
+      border-top: 1px solid var(--ion-color-primary);
+      border-bottom: 1px solid var(--ion-color-primary);
+  }
+
+
+  //=================
+  body.show-native-player {
+    ion-app,
+    ion-content,
+    .nav-decor {
+      background-color: transparent !important;
+    }
+  
+    /**
+     * For debugging: a semi-transparent <body>
+     * Uncomment to illustrate whether or not the ionic app is transparent,
+     * regardless of whether or not a viewfinder is displayed
+     */
+    // background-color: rgba(255, 0, 0, 0.5);
+  }
+
+.player-container{
+
+}
+  
+  page-player-native {
+    .logo {
+      position: absolute;
+      top: 0.5em;
+      right: 0.8em;
+      font-size: 3em;
+      color: #fff;
+    }
+  }
+}

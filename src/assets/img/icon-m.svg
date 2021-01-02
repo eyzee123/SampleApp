@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_44_2" width="70" height="61" data-name="Component 44 – 2" viewBox="0 0 70 61">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#b1c1bd;stroke-width:2px}.cls-2{fill:#b1c1bd;font-size:40px;font-family:HelveticaLT,Helvetica LT}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="Rectangle_92" class="cls-1" data-name="Rectangle 92">
+        <rect width="70" height="61" class="cls-3" rx="16"/>
+        <rect width="68" height="59" x="1" y="1" class="cls-4" rx="15"/>
+    </g>
+    <text id="M" class="cls-2" transform="translate(35 45)">
+        <tspan x="-16.66" y="0">M</tspan>
+    </text>
+</svg>

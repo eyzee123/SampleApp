@@ -1,0 +1,139 @@
+.signup-wrapper {
+    padding: 30px 20px;
+    h2 {
+        // color: #000;
+        font-size: 30px;
+        margin-top: 15px;
+        // font-weight: 800;
+        text-align: center;
+    }
+    .signup-with-wrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        button {
+            background-color: #E5F7F7;
+            padding: 14px 20px;
+            border-radius: 8px;
+            color: #1a7b7b;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            outline: none;
+            width: 48%;
+            justify-content: center;
+            img {
+                width: 20px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .or-sctn {
+        margin: 15px 0;
+        h1 {
+            color: #B1C1BD;
+            text-align: center;
+            font-size: 18px;
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 10px;
+                left: 0;
+                width: 44%;
+                height: 1px;
+                background-color: #D4EBE5;
+            }
+            &:after {
+                content: "";
+                position: absolute;
+                top: 9px;
+                width: 44%;
+                right: 0;
+                height: 1px;
+                background-color: #D4EBE5;
+            }
+        }
+    }
+    .signup-form {
+        
+        .form-group {
+            margin-bottom: 20px;
+            .form-control {
+                background-color: #F7FDFD;
+                border: 1px solid #72d3d3;
+                padding: 14px 44px;
+                border-radius: 8px;
+                width: 100%;
+                color: #4e4e4e;
+                outline: none;
+                text-align: left;
+                font-size: 14px;
+                font-weight: 700;
+                &::placeholder {
+                    color: #72d3d3;
+                    text-align: center;
+                }
+                
+            }
+            .input{
+                text-align: center;
+            }
+            .profile {
+                background-image: url("../../assets/imgs2/icon-profile.svg");
+                background-repeat: no-repeat;
+                background-position: 12px;
+                background-size: 15px;
+            }
+            .mail {
+                background-image: url("../../assets/imgs2/icon-mail.svg");
+                background-repeat: no-repeat;
+                background-position: 12px;
+                background-size: 17px;
+            }
+            .phonenumber {
+                background-image: url("../../assets/imgs2/icon-number.svg");
+                background-repeat: no-repeat;
+                background-position: 12px;
+                background-size: 15px;
+            }
+            .password {
+                background-image: url("../../assets/imgs2/icon-password.svg");
+                background-repeat: no-repeat;
+                background-position: 12px;
+                background-size: 15px;
+            }
+            label {
+                font-size: 12px;
+                color: #b1c1bd;
+                margin-top: 4px;
+                display: inline-block;
+            }
+        }
+        button {
+            background-color: #29bd53;
+            color: #fff;
+            padding: 14px;
+            border-radius: 8px;
+            width: 100%;
+            font-size: 16px;
+            outline: none;
+            position: relative;
+            z-index: 2;
+        }
+    }
+    .signup-footer {
+        margin-top: 30px;
+        h2 {
+            text-align: center;
+            color: #b1c1bd;
+            margin-bottom: 10px;
+            font-size: 14px;
+            span {
+                color: #29bd53;
+            }
+        }
+    }
+   
+}

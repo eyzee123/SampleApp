@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar color="primary">
+  <ion-title >Place Bet Modal</ion-title>
+  <ion-buttons slot="end">
+    <ion-button  (click)="dismissModal()">Close</ion-button>
+  </ion-buttons>
+  </ion-toolbar>
+  
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-item>
+      <ion-label position="floating">Amount</ion-label>
+      <ion-input [formControl]="amountInput" type="number"></ion-input>
+    </ion-item>
+  <ion-button expand="block" (click)="placeBet()" class="ion-margin-top" [disabled]="amountInput.invalid">Place</ion-button>
+  </ion-content>

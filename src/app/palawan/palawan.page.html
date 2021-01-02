@@ -1,0 +1,50 @@
+<ion-content>
+  <div class="signup-wrapper">
+      
+      <div class="signup-with-wrapper">
+          <!-- <button>Register with <img src="../../assets/img/icon-facebook-2.svg"></button>
+          <button>Register with <img src="../../assets/img/icon-google-2.svg"></button> -->
+          <h2>Deposit Form</h2>
+      </div>
+      <div class="signup-form">    
+              <div class="form-group">
+                  <label>Amount</label>
+                  <input type="text" class="form-control input" [(ngModel)]="amount">
+              </div>
+              <div class="form-group">
+                  <label>Sender Number</label>
+                  <input type="text" class="form-control input" [(ngModel)]="sender">
+            </div>
+            <div class="form-group">
+                <label>Receiver Number</label>
+                  <ion-select class="form-control input" placeholder= "--SELECT RECEIVER--" [(ngModel)]="receiver" [interfaceOptions]="customActionSheetOptions" interface="action-sheet">
+                 
+                    <ion-select-option *ngFor="let rec of receiverArr"  value="{{rec.number}}">{{rec.name}} - {{rec.number}}</ion-select-option>
+                  </ion-select>
+            </div>
+              <div class="form-group">
+                  <label>KPTN</label>
+                  <input type="text" class="form-control input" [(ngModel)]="kptn" >
+              </div>
+              <div class="form-group">
+                  <label>Photo of the actual receipt</label>
+                  <!-- <input type="file" [(ngModel)]="receipt" class="form-control"> -->
+                  <ion-input type="text" [(ngModel)]="myphoto" class="form-control"><ion-button (click)="openGallery()" style="padding: 0px !important;margin:0px !important;width: 30%; ">Choose</ion-button>&nbsp; {{ img_name }}</ion-input>
+              </div>
+              <div class="form-group">
+                <label>Notes</label>
+                <input type="text" [(ngModel)]="notes" class="form-control">
+            </div>
+              <button (click)="uploadImage()">Submit Palawan</button>
+              
+         
+      </div>
+      <!-- <div class="signup-footer">
+          <h2>By signing Up, I agree to the <span>Terms & Conditions</span></h2>
+          <h2>Already have an account? <span (click)="goToPage('login')">Login</span></h2>
+         
+          
+      </div> -->
+  </div>
+
+</ion-content>

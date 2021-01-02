@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_122_1" width="39.45" height="28.738" data-name="Component 122 – 1" viewBox="0 0 39.45 28.738">
+    <defs>
+        <style>
+            .cls-1{fill:#72d3d3}.cls-2{fill:#29bd53}
+        </style>
+    </defs>
+    <path id="Path_330" d="M696.848 1637.915l16.965-14.66a3.168 3.168 0 0 0-2-.723h-33.107a3.165 3.165 0 0 0-2 .725l16.967 14.658a2.544 2.544 0 0 0 3.175 0z" class="cls-1" data-name="Path 330" transform="translate(-675.534 -1622.532)"/>
+    <path id="Path_331" d="M697.2 1640.859a3.867 3.867 0 0 1-4.943.007l-16.921-14.753a3.145 3.145 0 0 0-.336 1.4v21.7a3.183 3.183 0 0 0 3.18 3.183h33.09a3.184 3.184 0 0 0 3.18-3.183v-21.7a3.141 3.141 0 0 0-.339-1.4z" class="cls-2" data-name="Path 331" transform="translate(-675 -1623.653)"/>
+</svg>

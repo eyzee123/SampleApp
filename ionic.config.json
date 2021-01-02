@@ -1,0 +1,7 @@
+{
+  "name": "sabongApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

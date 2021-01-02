@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_111_1" width="82" height="82" data-name="Component 111 – 1" viewBox="0 0 82 82">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3px}
+        </style>
+    </defs>
+    <rect id="Rectangle_2" width="82" height="82" data-name="Rectangle 2" rx="41"/>
+    <g id="Group_531" data-name="Group 531" transform="translate(-992.569 -329.569)">
+        <circle id="Ellipse_38" cx="10.752" cy="10.752" r="10.752" class="cls-1" data-name="Ellipse 38" transform="translate(1018.678 345.881)"/>
+        <path id="Path_1588" d="M477.8 2084.694a18.694 18.694 0 0 1 37.389 0" class="cls-1" data-name="Path 1588" transform="translate(532.763 -1692.898)"/>
+        <g id="Group_406" data-name="Group 406" transform="translate(1040.837 360.958)">
+            <path id="Line_21" d="M0 0v15.64" class="cls-2" data-name="Line 21" transform="translate(7.82)"/>
+            <path id="Line_22" d="M0 0h15.64" class="cls-2" data-name="Line 22" transform="translate(0 7.82)"/>
+        </g>
+    </g>
+</svg>

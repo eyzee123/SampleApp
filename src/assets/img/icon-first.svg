@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_42_1" width="69" height="69" data-name="Component 42 – 1" viewBox="0 0 69 69">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#b1c1bd;stroke-width:3px}.cls-2{fill:#b1c1bd;font-size:38px;font-family:HelveticaLT,Helvetica LT}.cls-3{font-size:22.165px;baseline-shift:12.66539974366333}.cls-4{stroke:none}.cls-5{fill:none}
+        </style>
+    </defs>
+    <g id="Group_385" data-name="Group 385" transform="translate(-128 -1086)">
+        <g id="Rectangle_90" class="cls-1" data-name="Rectangle 90" transform="translate(128 1086)">
+            <rect width="69" height="69" class="cls-4" rx="34.5"/>
+            <rect width="66" height="66" x="1.5" y="1.5" class="cls-5" rx="33"/>
+        </g>
+        <text id="_1st" class="cls-2" data-name="1st" transform="translate(163 1137)">
+            <tspan x="-19.186" y="0">1</tspan><tspan y="0" class="cls-3">st</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="primary" >
+    <ion-title>
+      Account 
+    </ion-title>
+      <!-- Side menu button -->
+      <ion-buttons slot="start">
+        <ion-menu-button autoHide="false"></ion-menu-button>
+      </ion-buttons>
+
+      <!-- <div slot="end" style="margin-right: 15px;">
+  
+        <ion-label>₱ {{wallet | number:'1.2-2'}}</ion-label>&nbsp;
+        <ion-icon  name="wallet-outline" ></ion-icon>
+      </div> -->
+
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list lines="full">
+    <ion-item (click)="goToPage('update-profile')">
+      <ion-icon color="primary" slot="start" name="arrow-forward-circle-outline"></ion-icon>
+      Update Profile
+    </ion-item>
+    <ion-item (click)="goToPage('change-pass')">
+      <ion-icon color="primary" slot="start" name="arrow-forward-circle-outline"></ion-icon>
+      Change Password
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

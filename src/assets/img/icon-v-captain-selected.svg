@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_69_1" width="88" height="88" data-name="Component 69 – 1" viewBox="0 0 88 88">
+    <defs>
+        <style>
+            .cls-1{fill:#29bd53;stroke:#fff;stroke-width:3px}.cls-2{fill:#fff;font-size:38px;font-family:Helvetica}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="Ellipse_31" class="cls-1" data-name="Ellipse 31">
+        <circle cx="44" cy="44" r="44" class="cls-3"/>
+        <circle cx="44" cy="44" r="42.5" class="cls-4"/>
+    </g>
+    <text id="VC" class="cls-2" transform="translate(44 57)">
+        <tspan x="-26.394" y="0">VC</tspan>
+    </text>
+</svg>

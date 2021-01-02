@@ -1,0 +1,162 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary" >
+    <ion-title>
+      Home
+    </ion-title>
+      <!-- Side menu button -->
+      <ion-buttons slot="start">
+        <ion-menu-button autoHide="false"></ion-menu-button>
+      </ion-buttons>
+
+      <div slot="end" style="margin-right: 15px;">
+  
+        <ion-label>₱ {{wallet | number:'1.2-2'}}</ion-label>&nbsp;
+        <ion-icon  name="wallet-outline" ></ion-icon>
+      </div>
+
+    
+  </ion-toolbar>
+</ion-header>
+
+
+  
+<ion-content>
+<div class="main-content">
+<!-- 
+<div class="wallet-container">
+  <h5> Wallet Balance </h5>
+  <ion-label>{{wallet | number:'1.2-2'}}</ion-label>
+</div> -->
+
+<!-- 
+    <div #player  style="height: 300px;">
+
+    </div> -->
+ 
+    <div   *ngIf="!live" style="width: 50%;
+    margin: 0 auto;height: 150px;top: 50%; display: flex;
+  align-items: center;">
+
+      <h5>No available fight yet.</h5>
+
+    </div>
+    <!-- <ion-card #player></ion-card> -->
+ 
+  <!-- <img src="../assets/imgs/videosample.jpg" alt=""> -->
+
+  <div class="event-info">
+  <div class="event-info-header">
+    <ion-item color="translucent" lines="none" >
+    <ion-label>Event Title <i>(#12312)</i></ion-label>
+    <p slot="end">Status</p>
+  </ion-item>
+  </div>
+  <p>This is a description</p>
+</div>
+<div class="bet-content">
+<ion-grid style="padding:0px;">
+  <ion-row no-padding no-margin>
+<ion-col size="6" class="team1" >
+
+  <div class="team-header">
+      <ion-label>MERON</ion-label>
+    </div>
+    <h4>100.<span style="font-size: 0.8em;">00</span></h4>
+      <h5>80%</h5>
+      <ion-label style="font-size: 0.8em;">  Daily Winrate: </ion-label><br>
+    <ion-button color="secondary" (click)="openModal()" style="margin-bottom: 15px;">Place Bet</ion-button>
+ 
+</ion-col>
+
+
+<ion-col size="6"  class="team2">
+
+  <div class="team-header">
+  WALA
+</div> 
+  <h4>100.<span style="font-size: 0.8em;">00</span></h4>
+<h5>20%</h5>
+<ion-label style="font-size: 0.8em;">  Daily Winrate: </ion-label><br>
+  <ion-button color="danger" (click)="openModal()" style="margin-bottom: 15px;">Place Bet</ion-button>
+ 
+</ion-col>
+
+  </ion-row>
+
+</ion-grid>
+</div>
+
+<div class="recent-results">
+  <div class="recent-results-header">
+    <ion-label>Recent Results</ion-label>
+  </div>
+  <div>
+    <div  class="tab-inner-wrapper">
+        <div class="team-select-list-wrapper">
+          <div class="team-inner-box">
+            <ion-grid class="no-gutter">
+                <ion-row class="no-gutter">
+                    <ion-col class="no-gutter" size="2">
+                      <div class="points-inner">
+                        <h4>180</h4>
+                    </div>
+                    </ion-col>
+                    <ion-col class="no-gutter" size="8">
+                       <h5 style="margin: 0px;">Toss Coin#132</h5>
+                       <h5 style="margin: 0px;"><span style="font-size: 0.8em;">Winner:</span>&nbsp;Head</h5>
+                  </ion-col>
+
+                    <ion-col class="no-gutter" size="2">
+                      <div class="credits-inner">
+                        <h5>8.6</h5>
+                    </div>
+                    </ion-col>
+                    
+                </ion-row>
+            </ion-grid>
+        </div>
+           
+            
+
+        </div>
+        <div class="team-select-list-wrapper">
+          <div class="team-inner-box">
+            <ion-grid class="no-gutter">
+                <ion-row class="no-gutter">
+                    <ion-col class="no-gutter" size="2">
+                      <div class="points-inner">
+                        <h4>180</h4>
+                    </div>
+                    </ion-col>
+                    <ion-col class="no-gutter" size="8">
+                       <h5 style="margin: 0px;">Toss Coin#132</h5>
+                       <h5 style="margin: 0px;"><span style="font-size: 0.8em;">Winner:</span>&nbsp;Head</h5>
+                  </ion-col>
+
+                    <ion-col class="no-gutter" size="2">
+                      <div class="credits-inner">
+                        <h5>8.6</h5>
+                    </div>
+                    </ion-col>
+                    
+                </ion-row>
+            </ion-grid>
+        </div>
+           
+            
+
+        </div>
+    </div>
+    
+   
+</div>
+
+</div>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="openChatModal()"> 
+    <ion-fab-button >
+      <ion-icon name="chatbox-ellipses-sharp"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</div>
+</ion-content>

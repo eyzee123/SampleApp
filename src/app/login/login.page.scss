@@ -1,0 +1,128 @@
+ion-content {
+    .login-wrapper {
+        padding: 25px 20px;
+        background-image: url('../../assets/imgs2/login-back.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        .login-header {
+            text-align: center;
+            margin: 25px 0;
+            img {
+                width: 125px;
+            }
+        }
+        .login-with-wrapper {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            button {
+                background-color: rgba(0, 0, 0, 0.16);
+                padding: 14px 20px;
+                border-radius: 8px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                outline: none;
+                width: 48%;
+                justify-content: center;
+                img {
+                    width: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .or-sctn {
+            margin: 15px 0;
+            h1 {
+                color: #fff;
+                text-align: center;
+                font-size: 18px;
+                position: relative;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    width: 44%;
+                    height: 1px;
+                    background-color: #fff;
+                }
+                &:after {
+                    content: "";
+                    position: absolute;
+                    top: 9px;
+                    width: 44%;
+                    right: 0;
+                    height: 1px;
+                    background-color: #fff;
+                }
+            }
+        }
+        .login-form {
+            .form-group {
+                margin-bottom: 20px;
+                .form-control {
+                    border: 0;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    padding: 14px 20px;
+                    border-radius: 8px;
+                    width: 100%;
+                    color: #fff;
+                    outline: none;
+                    text-align: center;
+                    font-size: 14px;
+                    &::placeholder {
+                        color: #72d3d3;
+                        text-align: center;
+                    }
+                }
+                .phonenumber {
+                    background-image: url("../../assets/imgs2/icon-number.svg");
+                    background-repeat: no-repeat;
+                    background-position: 12px;
+                    background-size: 15px;
+                }
+                .password {
+                    background-image: url("../../assets/imgs2/icon-password.svg");
+                    background-repeat: no-repeat;
+                    background-position: 12px;
+                    background-size: 15px;
+                }
+            }
+            button {
+                background-color: #29bd53;
+                color: #fff;
+                padding: 14px;
+                border-radius: 8px;
+                width: 100%;
+                font-size: 16px;
+                outline: none;
+                position: relative;
+                z-index: 2;
+            }
+        }
+        .login-footer {
+            text-align: center;
+            margin-top: 85px;
+            h1 {
+                color: #29bd53;
+                font-size: 14px;
+            }
+            h2 {
+                color: #fff;
+                font-size: 14px;
+                span {
+                    color: #29bd53;
+                    margin-top: 10px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+
+

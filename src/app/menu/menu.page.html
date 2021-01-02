@@ -1,0 +1,54 @@
+<ion-app>
+  <ion-menu contentId="main-content" side="start">
+  
+    <ion-content>
+      
+      <div class="menu-header-bg"></div>
+      <div class="header-content">
+        <img src="../assets/imgs/avatar.jpg" alt="">
+        <ion-label>
+            <h2>{{ username }}</h2>
+            <h6>{{ email }}</h6>
+
+        </ion-label>
+
+      </div>
+      <ion-list class="menu-items">
+        <ion-menu-toggle auto-hide="false" *ngFor="let page of pages">
+          <ion-item lines="none" [routerLink]="page.path" routerDirection="root" [class.active]="activePath === page.path">
+            <ion-icon slot="start" [ios]="page.icon + '-outline'" [md]="page.icon + '-sharp'"></ion-icon>
+            <ion-label>{{page.name}}</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+
+      <ion-item-divider>
+        <ion-label>Wallet</ion-label>
+      </ion-item-divider>
+      <ion-list class="menu-items">
+        <ion-menu-toggle auto-hide="false" *ngFor="let page of wallet">
+          <ion-item lines="none" [routerLink]="page.path" routerDirection="root" [class.active]="activePath === page.path">
+            <ion-icon slot="start" [ios]="page.icon + '-outline'" [md]="page.icon + '-sharp'"></ion-icon>
+            <ion-label>{{page.name}}</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+      <ion-item-divider>
+        <ion-label>Others</ion-label>
+      </ion-item-divider>
+      
+      <ion-list class="menu-items">
+       
+        <ion-menu-toggle auto-hide="false" *ngFor="let sub of sub_pages">
+        <ion-item  lines="none" [routerLink]="sub.path" routerDirection="root" [class.active]="activePath === sub.path">
+          <ion-icon slot="start" [ios]="sub.icon + '-outline'" [md]="sub.icon + '-sharp'"></ion-icon>
+          <ion-label>{{ sub.name }}</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main-content" main></ion-router-outlet>
+
+</ion-app>

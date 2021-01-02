@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_127_1" width="39" height="29" data-name="Component 127 – 1" viewBox="0 0 39 29">
+    <defs>
+        <style>
+            .cls-1{fill:#29bd53}.cls-2{fill:#72d3d3}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <rect id="Rectangle_176" width="39" height="29" class="cls-1" data-name="Rectangle 176" rx="3"/>
+    <path id="Rectangle_177" d="M0 0h39v7H0z" class="cls-2" data-name="Rectangle 177" transform="translate(0 16)"/>
+    <path id="Rectangle_178" d="M0 0h39v1H0z" class="cls-3" data-name="Rectangle 178" transform="translate(0 15)"/>
+    <path id="Rectangle_179" d="M0 0h39v1H0z" class="cls-3" data-name="Rectangle 179" transform="translate(0 23)"/>
+</svg>
